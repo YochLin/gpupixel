@@ -160,6 +160,7 @@ const std::string kGPUImageBaseBeautyFaceFragmentShaderString = R"(
     })";
 #elif defined(GPUPIXEL_MAC) || defined(GPUPIXEL_WIN) || defined(GPUPIXEL_LINUX)
 const std::string kGPUImageBaseBeautyFaceFragmentShaderString = R"(
+    precision mediump float;
     float; varying vec2 textureCoordinate; varying vec4 textureShift_1;
     varying vec4 textureShift_2;
     varying vec4 textureShift_3;

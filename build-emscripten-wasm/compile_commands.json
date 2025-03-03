@@ -1,0 +1,692 @@
+[
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/core/framebuffer.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/core/framebuffer.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/core/framebuffer.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/core/framebuffer.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/core/framebuffer_cache.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/core/framebuffer_cache.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/core/framebuffer_cache.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/core/framebuffer_cache.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/core/gl_program.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/core/gl_program.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/core/gl_program.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/core/gl_program.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/core/gpupixel_context.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/core/gpupixel_context.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/core/gpupixel_context.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/core/gpupixel_context.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/background_segmentation_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/background_segmentation_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/background_segmentation_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/background_segmentation_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/beauty_face_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/beauty_face_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/beauty_face_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/beauty_face_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/beauty_face_unit_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/beauty_face_unit_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/beauty_face_unit_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/beauty_face_unit_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/bilateral_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/bilateral_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/bilateral_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/bilateral_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/blusher_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/blusher_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/blusher_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/blusher_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/box_blur_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/box_blur_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/box_blur_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/box_blur_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/box_difference_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/box_difference_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/box_difference_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/box_difference_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/box_high_pass_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/box_high_pass_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/box_high_pass_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/box_high_pass_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/box_mono_blur_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/box_mono_blur_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/box_mono_blur_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/box_mono_blur_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/brightness_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/brightness_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/brightness_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/brightness_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/canny_edge_detection_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/canny_edge_detection_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/canny_edge_detection_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/canny_edge_detection_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/color_invert_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/color_invert_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/color_invert_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/color_invert_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/color_matrix_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/color_matrix_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/color_matrix_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/color_matrix_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/contrast_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/contrast_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/contrast_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/contrast_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/convolution3x3_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/convolution3x3_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/convolution3x3_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/convolution3x3_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/crosshatch_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/crosshatch_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/crosshatch_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/crosshatch_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/directional_non_maximum_suppression_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/directional_non_maximum_suppression_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/directional_non_maximum_suppression_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/directional_non_maximum_suppression_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/directional_sobel_edge_detection_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/directional_sobel_edge_detection_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/directional_sobel_edge_detection_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/directional_sobel_edge_detection_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/emboss_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/emboss_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/emboss_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/emboss_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/exposure_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/exposure_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/exposure_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/exposure_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/face_makeup_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/face_makeup_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/face_makeup_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/face_makeup_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/face_reshape_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/face_reshape_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/face_reshape_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/face_reshape_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/filter_group.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/filter_group.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/filter_group.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/filter_group.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/gaussian_blur_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/gaussian_blur_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/gaussian_blur_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/gaussian_blur_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/gaussian_blur_mono_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/gaussian_blur_mono_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/gaussian_blur_mono_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/gaussian_blur_mono_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/glass_sphere_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/glass_sphere_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/glass_sphere_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/glass_sphere_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/grayscale_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/grayscale_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/grayscale_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/grayscale_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/halftone_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/halftone_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/halftone_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/halftone_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/hsb_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/hsb_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/hsb_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/hsb_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/hue_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/hue_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/hue_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/hue_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/ios_blur_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/ios_blur_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/ios_blur_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/ios_blur_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/lipstick_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/lipstick_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/lipstick_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/lipstick_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/luminance_range_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/luminance_range_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/luminance_range_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/luminance_range_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/nearby_sampling3x3_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/nearby_sampling3x3_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/nearby_sampling3x3_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/nearby_sampling3x3_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/non_maximum_suppression_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/non_maximum_suppression_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/non_maximum_suppression_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/non_maximum_suppression_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/pixellation_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/pixellation_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/pixellation_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/pixellation_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/posterize_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/posterize_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/posterize_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/posterize_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/rgb_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/rgb_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/rgb_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/rgb_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/saturation_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/saturation_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/saturation_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/saturation_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/single_component_gaussian_blur_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/single_component_gaussian_blur_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/single_component_gaussian_blur_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/single_component_gaussian_blur_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/single_component_gaussian_blur_mono_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/single_component_gaussian_blur_mono_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/single_component_gaussian_blur_mono_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/single_component_gaussian_blur_mono_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/sketch_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/sketch_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/sketch_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/sketch_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/smooth_toon_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/smooth_toon_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/smooth_toon_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/smooth_toon_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/sobel_edge_detection_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/sobel_edge_detection_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/sobel_edge_detection_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/sobel_edge_detection_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/sphere_refraction_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/sphere_refraction_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/sphere_refraction_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/sphere_refraction_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/toon_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/toon_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/toon_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/toon_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/weak_pixel_inclusion_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/weak_pixel_inclusion_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/weak_pixel_inclusion_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/weak_pixel_inclusion_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/filter/white_balance_filter.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/filter/white_balance_filter.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/filter/white_balance_filter.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/filter/white_balance_filter.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/source/source.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/source/source.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/source/source.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/source/source.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/source/source_camera.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/source/source_camera.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/source/source_camera.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/source/source_camera.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/source/source_image.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/source/source_image.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/source/source_image.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/source/source_image.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/source/source_raw_data_input.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/source/source_raw_data_input.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/source/source_raw_data_input.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/source/source_raw_data_input.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/target/target.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/target/target.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/target/target.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/target/target.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/target/target_raw_data_output.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/target/target_raw_data_output.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/target/target_raw_data_output.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/target/target_raw_data_output.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/target/target_view.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/target/target_view.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/target/target_view.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/target/target_view.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_common.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_common.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_common.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_common.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_gcc.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_gcc.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_gcc.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_gcc.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_msa.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_msa.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_msa.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_msa.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_neon.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_neon.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_neon.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_neon.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_neon64.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_neon64.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_neon64.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_neon64.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_win.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_win.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/compare_win.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/compare_win.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_argb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_argb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_argb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_argb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_from.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_from.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_from.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_from.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_from_argb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_from_argb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_from_argb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_from_argb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_jpeg.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_jpeg.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_jpeg.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_jpeg.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_to_argb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_to_argb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_to_argb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_to_argb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_to_i420.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_to_i420.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/convert_to_i420.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/convert_to_i420.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/cpu_id.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/cpu_id.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/cpu_id.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/cpu_id.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/mjpeg_decoder.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/mjpeg_decoder.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/mjpeg_decoder.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/mjpeg_decoder.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/mjpeg_validate.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/mjpeg_validate.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/mjpeg_validate.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/mjpeg_validate.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/planar_functions.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/planar_functions.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/planar_functions.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/planar_functions.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_any.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_any.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_any.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_any.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_argb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_argb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_argb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_argb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_common.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_common.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_common.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_common.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_gcc.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_gcc.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_gcc.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_gcc.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_lsx.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_lsx.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_lsx.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_lsx.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_msa.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_msa.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_msa.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_msa.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_neon.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_neon.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_neon.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_neon.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_neon64.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_neon64.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_neon64.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_neon64.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_win.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_win.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/rotate_win.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/rotate_win.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_any.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_any.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_any.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_any.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_common.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_common.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_common.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_common.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_gcc.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_gcc.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_gcc.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_gcc.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_lasx.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_lasx.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_lasx.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_lasx.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_lsx.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_lsx.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_lsx.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_lsx.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_msa.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_msa.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_msa.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_msa.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_neon.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_neon.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_neon.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_neon.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_neon64.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_neon64.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_neon64.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_neon64.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_rvv.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_rvv.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_rvv.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_rvv.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_win.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_win.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/row_win.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/row_win.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_any.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_any.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_any.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_any.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_argb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_argb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_argb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_argb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_common.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_common.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_common.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_common.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_gcc.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_gcc.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_gcc.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_gcc.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_lsx.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_lsx.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_lsx.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_lsx.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_msa.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_msa.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_msa.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_msa.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_neon.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_neon.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_neon.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_neon.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_neon64.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_neon64.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_neon64.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_neon64.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_rgb.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_rgb.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_rgb.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_rgb.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_rvv.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_rvv.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_rvv.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_rvv.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_uv.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_uv.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_uv.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_uv.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_win.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_win.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/scale_win.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/scale_win.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/third_party/libyuv/source/video_common.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/video_common.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/source/video_common.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/third_party/libyuv/source/video_common.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/utils/dispatch_queue.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/utils/dispatch_queue.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/utils/dispatch_queue.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/utils/dispatch_queue.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/utils/math_toolbox.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/utils/math_toolbox.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/utils/math_toolbox.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/utils/math_toolbox.cc.obj"
+},
+{
+  "directory": "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/src",
+  "command": "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -DMYMATH_EXPORT_LIBRARY -D__emscripten__ -Dgpupixel_EXPORTS -I/Users/yochang/Desktop/younow/gpupixel/src/core -I/Users/yochang/Desktop/younow/gpupixel/src/filter -I/Users/yochang/Desktop/younow/gpupixel/src/source -I/Users/yochang/Desktop/younow/gpupixel/src/target -I/Users/yochang/Desktop/younow/gpupixel/src/utils -I/Users/yochang/Desktop/younow/gpupixel/src/face_detect -I/Users/yochang/Desktop/younow/gpupixel/src/android/jni -I/Users/yochang/Desktop/younow/gpupixel/src/target/objc -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/glfw/include -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/stb -I/Users/yochang/Desktop/younow/gpupixel/src/third_party/libyuv/include -std=gnu++17 -fPIC -o CMakeFiles/gpupixel.dir/utils/util.cc.obj -c /Users/yochang/Desktop/younow/gpupixel/src/utils/util.cc",
+  "file": "/Users/yochang/Desktop/younow/gpupixel/src/utils/util.cc",
+  "output": "src/CMakeFiles/gpupixel.dir/utils/util.cc.obj"
+}
+]
