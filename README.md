@@ -39,6 +39,8 @@
 
 > Welcome to join us to make GPUPixel better by participating [discussions](https://github.com/pixpark/gpupixel/discussions), opening [issues](https://github.com/pixpark/gpupixel/issues/new/choose), submitting [PRs](https://github.com/pixpark/gpupixel/pulls) 👏.
 
+> Replace the VNN face detection library with Mars-Face from v1.3.0-beta
+
 ## Introduction
 
 🍔  GPUPixel is a real-time, high-performance image and video filter library, extremely easy to compile and integrate with  small library size.
@@ -59,7 +61,7 @@
 | <img src="./docs/image/bigeye.gif" width="180px"> | <img src="./docs/image/lipstick.gif" width="180px"> | <img src="./docs/image/blusher.gif" width="180px"> |  <img src="./docs/image/on-off.gif" width="180px">  |
 
 ## Architecture
-![](./docs/image/arch-en.svg)
+![](./docs/image/arch.jpg)
 
 ## Features
 
@@ -138,16 +140,19 @@ At the same time, please consider supporting GPUPixel by sharing it on social me
 ## Sponsorship
 If you like this project, you can consider supporting me through the following methods:
 
-<p align="center">
-  <a href="https://ko-fi.com/jaaron" target="_blank"><img alt="Ko-fi" src="./docs/image/support_me_on_kofi_red.png" width="30%" style="border-bottom: 1px dashed gray; padding-bottom: 15px;"/></a> 
-</p>
-<p align="center">
-  <a href="https://opencollective.com/gpupixel" target="_blank"><img alt="open collective" src="./docs/image/open-collective-vector-logo.png" width="30%" style="border-bottom: 1px dashed gray; padding-bottom: 15px;"/></a> 
-</p>
+| [<img src="./docs/image/support_me_on_kofi_red.png" alt="Ko-fi" style="width: 150px;" />](https://ko-fi.com/jaaron) | [<img src="./docs/image/open-collective-vector-logo.png" alt="open collective" style="width: 150px;" />](https://opencollective.com/gpupixel) | [<img src="./docs/image/wechat-logo.png" alt="wechat" style="width: 150px;" />](https://gpupixel.pixpark.net/sponsor#wechat) |
+|:---:|:---:|:---:|
 
-<p align="center">
-  <a href="https://gpupixel.pixpark.net/sponsor#wechat" target="_blank"><img alt="wechat" src="./docs/image/wechat-logo.png" width="30%"/></a>
-</p>
+## Donors
+
+Thank you to the following friends for their contributions and support to the project.
+
+<a href="https://github.com/leavenotrace">
+  <img src="https://github.com/leavenotrace.png" style="border-radius:50%; width: 50px; height: 50px;" >
+</a>
+<a href="https://github.com/weiyu666">
+  <img src="https://github.com/weiyu666.png" style="border-radius: 50%; width: 50px; height: 50px;" >
+</a>
 
 ## Contact & Support
 - [Doc](https://gpupixel.pixpark.net/) : Online documentation.
@@ -164,3 +169,4 @@ If you like this project, you can consider supporting me through the following m
 
 ## License
 This repository is available under the [MIT License](https://github.com/pixpark/gpupixel?tab=MIT-1-ov-file#readme).
+

@@ -1,0 +1,417 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      The target system is: Emscripten -  - 
+      The host system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/emcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.js"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.wasm"
+      
+      The C compiler identification could not be found in:
+        /Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/3.31.4/CompilerIdC/a.out.js
+      
+      The C compiler identification is Clang, found in:
+        /Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/3.31.4/CompilerIdC/a.out.wasm
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.js"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.wasm"
+      
+      The CXX compiler identification could not be found in:
+        /Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/3.31.4/CompilerIdCXX/a.out.js
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/3.31.4/CompilerIdCXX/a.out.wasm
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs"
+      binary: "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-s WASM=1"
+      CMAKE_MODULE_PATH: "/Users/yochang/Desktop/younow/gpupixel/toolchain/../modules;/Users/yochang/Desktop/younow/gpupixel/toolchain/../modules"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8929/fast
+        /Users/yochang/Desktop/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8929.dir/build.make CMakeFiles/cmTC_e8929.dir/build
+        Building C object CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj
+        /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -oCMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)
+        Target: wasm32-unknown-emscripten
+        Thread model: posix
+        InstalledDir: /Users/yochang/Desktop/open_source/emsdk/upstream/bin
+         (in-process)
+         "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs -v -fcoverage-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs -resource-dir /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -sys-header-deps -D EMSCRIPTEN -isysroot /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat
+         /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include
+        End of search list.
+        Linking C executable cmTC_e8929
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8929.dir/link.txt --verbose=1
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang --version
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld -o cmTC_e8929.wasm CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpg0vpqudqlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/llvm-objcopy cmTC_e8929.wasm cmTC_e8929.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /Users/yochang/Desktop/open_source/emsdk/node/20.18.0_64bit/bin/node /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/compiler.mjs /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpm9i2myez.json
+        /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/emcc -s WASM=1 -v CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -o cmTC_e8929
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        end of search list found
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        implicit include dirs: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat;/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8929/fast]
+        ignore line: [/Users/yochang/Desktop/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8929.dir/build.make CMakeFiles/cmTC_e8929.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -oCMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)]
+        ignore line: [Target: wasm32-unknown-emscripten]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/yochang/Desktop/open_source/emsdk/upstream/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs -v -fcoverage-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-450xSs -resource-dir /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -sys-header-deps -D EMSCRIPTEN -isysroot /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_e8929]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8929.dir/link.txt --verbose=1]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang --version]
+        link line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld -o cmTC_e8929.wasm CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpg0vpqudqlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+          arg [/Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e8929.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+          arg [-L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib] ==> dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+          arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
+          arg [-lal] ==> lib [al]
+          arg [-lhtml5] ==> lib [html5]
+          arg [-lstubs-debug] ==> lib [stubs-debug]
+          arg [-lnoexit] ==> lib [noexit]
+          arg [-lc-debug] ==> lib [c-debug]
+          arg [-ldlmalloc-debug] ==> lib [dlmalloc-debug]
+          arg [-lcompiler_rt] ==> lib [compiler_rt]
+          arg [-lc++-noexcept] ==> lib [c++-noexcept]
+          arg [-lc++abi-debug-noexcept] ==> lib [c++abi-debug-noexcept]
+          arg [-lsockets] ==> lib [sockets]
+          arg [-mllvm] ==> ignore
+          arg [-combiner-global-alias-analysis=false] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-emscripten-sjlj] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-disable-lsr] ==> ignore
+          arg [/var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpg0vpqudqlibemscripten_js_symbols.so] ==> ignore
+          arg [--strip-debug] ==> ignore
+          arg [--export=emscripten_stack_get_end] ==> ignore
+          arg [--export=emscripten_stack_get_free] ==> ignore
+          arg [--export=emscripten_stack_get_base] ==> ignore
+          arg [--export=emscripten_stack_get_current] ==> ignore
+          arg [--export=emscripten_stack_init] ==> ignore
+          arg [--export=_emscripten_stack_alloc] ==> ignore
+          arg [--export=__wasm_call_ctors] ==> ignore
+          arg [--export=_emscripten_stack_restore] ==> ignore
+          arg [--export-if-defined=__start_em_asm] ==> ignore
+          arg [--export-if-defined=__stop_em_asm] ==> ignore
+          arg [--export-if-defined=__start_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__stop_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__start_em_js] ==> ignore
+          arg [--export-if-defined=__stop_em_js] ==> ignore
+          arg [--export-if-defined=main] ==> ignore
+          arg [--export-if-defined=__main_argc_argv] ==> ignore
+          arg [--export-if-defined=fflush] ==> ignore
+          arg [--export-table] ==> ignore
+          arg [-zstack-size=65536] ==> ignore
+          arg [--no-growable-memory] ==> ignore
+          arg [--initial-heap=16777216] ==> ignore
+          arg [--no-entry] ==> ignore
+          arg [--stack-first] ==> ignore
+          arg [--table-base=1] ==> ignore
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/llvm-objcopy cmTC_e8929.wasm cmTC_e8929.wasm --remove-section=.debug* --remove-section=producers --remove-section=name]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/node/20.18.0_64bit/bin/node /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/compiler.mjs /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpm9i2myez.json]
+        ignore line: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/emcc -s WASM=1 -v CMakeFiles/cmTC_e8929.dir/CMakeCCompilerABI.c.obj -o cmTC_e8929]
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+        collapse library dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+        implicit libs: [GL-getprocaddr;al;html5;stubs-debug;noexit;c-debug;dlmalloc-debug;compiler_rt;c++-noexcept;c++abi-debug-noexcept;sockets]
+        implicit objs: []
+        implicit dirs: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI"
+      binary: "/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-s WASM=1"
+      CMAKE_MODULE_PATH: "/Users/yochang/Desktop/younow/gpupixel/toolchain/../modules;/Users/yochang/Desktop/younow/gpupixel/toolchain/../modules"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_957b7/fast
+        /Users/yochang/Desktop/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_957b7.dir/build.make CMakeFiles/cmTC_957b7.dir/build
+        Building CXX object CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -oCMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)
+        Target: wasm32-unknown-emscripten
+        Thread model: posix
+        InstalledDir: /Users/yochang/Desktop/open_source/emsdk/upstream/bin
+         (in-process)
+         "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI -v -fcoverage-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI -resource-dir /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -D EMSCRIPTEN -isysroot /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"
+        ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1
+         /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include
+         /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include
+        End of search list.
+        Linking CXX executable cmTC_957b7
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_957b7.dir/link.txt --verbose=1
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang --version
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld -o cmTC_957b7.wasm CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpva6uix5zlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /Users/yochang/Desktop/open_source/emsdk/upstream/bin/llvm-objcopy cmTC_957b7.wasm cmTC_957b7.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /Users/yochang/Desktop/open_source/emsdk/node/20.18.0_64bit/bin/node /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/compiler.mjs /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpypt3fjmu.json
+        /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -s WASM=1 -v CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_957b7
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+          add: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        end of search list found
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+        collapse include dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        implicit include dirs: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1;/Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_957b7/fast]
+        ignore line: [/Users/yochang/Desktop/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_957b7.dir/build.make CMakeFiles/cmTC_957b7.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -oCMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 6dc41a639334b913e762f65410fcd14a722b137f)]
+        ignore line: [Target: wasm32-unknown-emscripten]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/yochang/Desktop/open_source/emsdk/upstream/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI -v -fcoverage-compilation-dir=/Users/yochang/Desktop/younow/gpupixel/build-emscripten-wasm/CMakeFiles/CMakeScratch/TryCompile-OMLWGI -resource-dir /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -D EMSCRIPTEN -isysroot /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"]
+        ignore line: [ignoring nonexistent directory "/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/lib/clang/21/include]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_957b7]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_957b7.dir/link.txt --verbose=1]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/clang --version]
+        link line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld -o cmTC_957b7.wasm CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpva6uix5zlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+          arg [/Users/yochang/Desktop/open_source/emsdk/upstream/bin/wasm-ld] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_957b7.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+          arg [-L/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib] ==> dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+          arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
+          arg [-lal] ==> lib [al]
+          arg [-lhtml5] ==> lib [html5]
+          arg [-lstubs-debug] ==> lib [stubs-debug]
+          arg [-lnoexit] ==> lib [noexit]
+          arg [-lc-debug] ==> lib [c-debug]
+          arg [-ldlmalloc-debug] ==> lib [dlmalloc-debug]
+          arg [-lcompiler_rt] ==> lib [compiler_rt]
+          arg [-lc++-noexcept] ==> lib [c++-noexcept]
+          arg [-lc++abi-debug-noexcept] ==> lib [c++abi-debug-noexcept]
+          arg [-lsockets] ==> lib [sockets]
+          arg [-mllvm] ==> ignore
+          arg [-combiner-global-alias-analysis=false] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-emscripten-sjlj] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-disable-lsr] ==> ignore
+          arg [/var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpva6uix5zlibemscripten_js_symbols.so] ==> ignore
+          arg [--strip-debug] ==> ignore
+          arg [--export=emscripten_stack_get_end] ==> ignore
+          arg [--export=emscripten_stack_get_free] ==> ignore
+          arg [--export=emscripten_stack_get_base] ==> ignore
+          arg [--export=emscripten_stack_get_current] ==> ignore
+          arg [--export=emscripten_stack_init] ==> ignore
+          arg [--export=_emscripten_stack_alloc] ==> ignore
+          arg [--export=__wasm_call_ctors] ==> ignore
+          arg [--export=_emscripten_stack_restore] ==> ignore
+          arg [--export-if-defined=__start_em_asm] ==> ignore
+          arg [--export-if-defined=__stop_em_asm] ==> ignore
+          arg [--export-if-defined=__start_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__stop_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__start_em_js] ==> ignore
+          arg [--export-if-defined=__stop_em_js] ==> ignore
+          arg [--export-if-defined=main] ==> ignore
+          arg [--export-if-defined=__main_argc_argv] ==> ignore
+          arg [--export-if-defined=fflush] ==> ignore
+          arg [--export-table] ==> ignore
+          arg [-zstack-size=65536] ==> ignore
+          arg [--no-growable-memory] ==> ignore
+          arg [--initial-heap=16777216] ==> ignore
+          arg [--no-entry] ==> ignore
+          arg [--stack-first] ==> ignore
+          arg [--table-base=1] ==> ignore
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/upstream/bin/llvm-objcopy cmTC_957b7.wasm cmTC_957b7.wasm --remove-section=.debug* --remove-section=producers --remove-section=name]
+        ignore line: [ /Users/yochang/Desktop/open_source/emsdk/node/20.18.0_64bit/bin/node /Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/compiler.mjs /var/folders/z4/sl36lmr96n9d_b5q5h31y5cw0000gp/T/tmpypt3fjmu.json]
+        ignore line: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/em++ -s WASM=1 -v CMakeFiles/cmTC_957b7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_957b7]
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+        collapse library dir [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib] ==> [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+        implicit libs: [GL-getprocaddr;al;html5;stubs-debug;noexit;c-debug;dlmalloc-debug;compiler_rt;c++-noexcept;c++abi-debug-noexcept;sockets]
+        implicit objs: []
+        implicit dirs: [/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten;/Users/yochang/Desktop/open_source/emsdk/upstream/emscripten/src/lib]
+        implicit fwks: []
+      
+      
+...

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPUPixel Camera Demo</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        #videoElement {
+            width: 640px;
+            height: 480px;
+            background-color: #666;
+            margin-bottom: 20px;
+        }
+        #outputCanvas {
+            width: 640px;
+            height: 480px;
+            background-color: #666;
+        }
+        <!-- #captureCanvas, #videoElement { -->
+        <!--     display: none -->
+        <!-- } -->
+        .controls {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video id="videoElement" autoplay playsinline></video>
+        <canvas id="outputCanvas"></canvas>
+        <canvas id="captureCanvas"></canvas>
+        <div class="controls">
+            <button id="startButton">Start Camera</button>
+            <button id="stopButton">Stop Camera</button>
+        </div>
+    </div>
+
+    <script src="libgpupixel.js"></script>
+    <script>
+        let stream = null;
+        let video = document.getElementById('videoElement');
+        let instance = null;
+        let context = null;
+        let rawDataOutput = null;
+        let rawData = null;
+        let filterWrapper = null;
+        let filter = null;
+        let videoWidth = 640;
+        let videoHeight = 480;
+        let outputCanvas = document.getElementById('outputCanvas');
+        outputCanvas.width = videoWidth;
+        outputCanvas.height = videoHeight;
+        let gl = outputCanvas.getContext('webgl2');
+        let captureCanvas = document.getElementById('captureCanvas');
+        captureCanvas.width = videoWidth;
+        captureCanvas.height = videoHeight;
+        let captureCtx = captureCanvas.getContext('2d');
+
+        async function initModel() {
+            try {
+                instance = await GpuPixel({
+                    canvas: outputCanvas,
+                    gl: gl
+                }); 
+                context = new instance.GPUPixelContext();
+
+                context.runSync(() => {
+                    rawData = new instance.SourceRawDataInput();
+                    filterWrapper = new instance.BeautyFaceFilterWrapper();
+
+                    rawDataOutput = instance.TargetRawDataOutput.create();
+                    // filter = instance.BeautyFaceFilter.create();
+
+                    filterWrapper.create();
+                    filter = filterWrapper.get();
+
+                    rawData.addTarget(filter.get());
+                    // rawData.addTarget(rawDataOutput);
+                })
+
+            } catch(e) {
+                console.log("failed to init model, err: ", e);
+            }
+        }
+
+        function processFrame() {
+            captureCtx.drawImage(video, 0, 0, videoWidth, videoHeight);
+
+            // get image data
+            const imageData = captureCtx.getImageData(0, 0, videoWidth, videoHeight);
+
+            const pixels = imageData.data;
+            rawData.uploadRGBBytes(pixels, videoWidth, videoHeight, videoWidth * 4);
+
+            window.requestAnimationFrame(processFrame);
+        }
+
+        document.getElementById('startButton').onclick = async function startCamera() {
+            const constraints = {
+                video: {
+                    width: videoWidth,
+                    height: videoHeight,
+                    frameRate: 30
+                }
+                // audio: true
+            }
+            stream = await navigator.mediaDevices.getUserMedia(constraints);
+            video.srcObject = stream;
+
+            video.onloadedmetadata = () => {
+                video.play();
+                processFrame();
+            }
+        }
+
+        document.getElementById('stopButton').onclick = function () {
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                stream = null;    
+            }
+        }
+
+        initModel();
+    </script>
+</body>
+</html>
